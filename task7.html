@@ -1,0 +1,70 @@
+// task 1
+base=parseInt( prompt('Enter the base of the triangle:'))
+ height=parseInt(prompt('Enter the height of the tringle:'))
+ area=0.5*base*height
+ console.log(area);
+ alert (area)
+
+
+// task 2
+ number=parseInt(prompt('Enter a number:'))
+ if (number %2 == 0) 
+ {
+     alert('The number is even!')
+ }
+ else
+ {
+     alert('The number is odd number!')
+ }
+
+// task 4
+ email=prompt('Enter ur email:')
+ if (email.includes('@'))
+ {
+     alert('Email vailid')
+ }
+ else
+ {
+     alert('The email is wrong!')
+ }
+
+ console.log('The email is wrong!');
+
+// task 5
+ num1=parseInt(prompt('Enter first number'));
+ num2=parseInt(prompt('Enter second number'));
+ num3=parseInt(prompt('Enter third number'));
+
+ let largest;
+
+ if (num1>num2 && num1>num3)
+ {
+     largest =num1;
+ }
+ else if (num2 > num1 && num2 > num3)
+ {
+     largest = num2;
+ }
+ else
+ {
+     largest = num3
+ }
+
+ alert ('largest')
+ console.log(largest)
+
+// task 6
+ let correctpassword='admin@123'
+ let attempts = 4
+ while (attempts>0)
+ var password = prompt('Enter your password:')
+ if (password == correctpassword)
+ {
+     alert('Access granted');
+     
+ }
+ else
+ {
+     attempts --;
+     if (attempts>0){} 
+ }

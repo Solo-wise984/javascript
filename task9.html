@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Solomon</h1>
+    <script>
+        // JavaScript program to print a triangle of stars based on user input
+
+// Prompt user to input a number
+let rows = prompt("Enter the number of rows for the star pattern:");
+
+// Convert input to a number
+rows = Number(rows);
+
+if (!isNaN(rows) && rows > 0) {
+    let starPattern = "";
+
+    // Generate the star pattern
+    for (let i = 1; i <= rows; i++) {
+        starPattern += "*".repeat(i) + "\n";
+    }
+
+    // Print the star pattern
+    console.log(starPattern);
+    alert(starPattern);
+} else {
+    alert("Please enter a valid positive number.");
+}
+
+    </script>
+</body>
+</html>
